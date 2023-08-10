@@ -1,6 +1,5 @@
 
-curl -X POST "https://msumgt-apiqa.egmu-research.org/api/Token" -H  "accept: text/plain" -H  "Content-Type: application/json" -d "{\"username\":\"string\",\"password\":\"string\"}"
-      responses:
+curl -X POST "https://msumgt-apiqa.egmu-research.org/api/Token" -H  "accept: text/plain" -H  "Content-Type:application/json" -d "{\"username\":\"string\",\"password\":\"string\"}"      responses:
         "404":
           description: Product item not found
         "200":
