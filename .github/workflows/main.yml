@@ -1,10 +1,1 @@
-
-curl -X POST "https://msumgt-apiqa.egmu-research.org/api/Token" -H  "accept: text/plain" -H  "Content-Type:application/json" -d "{\"username\":\"string\",\"password\":\"string\"}"      responses:
-        "404":
-          description: Product item not found
-        "200":
-          description: successful operation
-          schema:
-            $ref: "#/definitions/Product"
-        "400":
-          description: Invalid ID supplied
+curl -X POST https://msumgt-apiqa.egmu-research.org/api/Token -H "accept: text/plain" -H "Content-Type: application/json" -d "{\"username\":\"test\",\"password\":\"test\"}"
